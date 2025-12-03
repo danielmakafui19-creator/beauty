@@ -1,0 +1,101 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+]
+.topnav {
+  overflow: hidden;
+  background-color: #2f3e4e;
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.hero {
+  background: #2f3e4e;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 150px;
+}
+
+.section {
+  padding: 60px 20px;
+  background: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-box {
+  background: #f7f7f7;
+  padding: 20px;
+  width: 28%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+]
+.blog-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+
+.testimonial-box {
+  background: #2f3e4e;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+]
+footer {
+  background: #2f3e4e;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+]
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #999;
+  padding: 10px;
+}
